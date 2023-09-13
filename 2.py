@@ -17,6 +17,6 @@ print("Ищим в списке: ",list)
 
 loot = []
 for i in range(20):
-     if a < list[i] < b:
+     if a <= list[i] <= b:
         loot.append(i)
 print("Значения найдены по индексам: ",loot)
